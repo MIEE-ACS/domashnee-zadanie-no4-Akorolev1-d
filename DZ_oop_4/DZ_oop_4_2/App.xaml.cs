@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace DZ4_2
+namespace DZ_oop_4_2
 {
     /// <summary>
     /// Interaction logic for App.xaml

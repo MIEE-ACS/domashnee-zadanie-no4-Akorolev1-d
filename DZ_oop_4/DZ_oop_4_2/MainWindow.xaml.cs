@@ -39,7 +39,7 @@ namespace DZ_4
             int Rows, Columns;
             bool success1 = Int32.TryParse(tbRows.Text, out n);
             bool success2 = Int32.TryParse(tbColumns.Text, out n);
-            
+
 
             if (success1 && success2)
             {
@@ -77,7 +77,7 @@ namespace DZ_4
             if (Rows == 0 || Columns == 0)
             {
                 MessageBox.Show("Строки или столбцы равны 0!");
-                    return;
+                return;
             }
             int[,] x = new int[Rows, Columns];
             tb2.Text = "";
