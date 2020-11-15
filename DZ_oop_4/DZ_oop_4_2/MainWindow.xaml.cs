@@ -34,11 +34,14 @@ namespace DZ_4
 
             //-------------------------------------------------------------//
             // 2 //
+            
             int n;
             Random Random = new Random();
             int Rows, Columns;
             bool success1 = Int32.TryParse(tbRows.Text, out n);
             bool success2 = Int32.TryParse(tbColumns.Text, out n);
+
+           
 
 
             if (success1 && success2)
@@ -68,7 +71,7 @@ namespace DZ_4
                 MessageBox.Show("Неправильный ввод столбцов!");
                 return;
             }
-
+            
 
 
             Rows = int.Parse(tbRows.Text);
@@ -79,6 +82,13 @@ namespace DZ_4
                 MessageBox.Show("Строки или столбцы равны 0!");
                 return;
             }
+
+            if(Rows<0|| Columns < 0)
+            {
+                MessageBox.Show("Отрицательные значения строк или столбцов!");
+                return;
+            }
+
             int[,] x = new int[Rows, Columns];
             tb2.Text = "";
             for (int i = 0; i < Rows; i++)

@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="729" Width="1087">
     <Grid x:Name="WorkSpace" Margin="0,0,-18,-6">
-        <TextBox x:Name="tb2" Margin="363,48,0,484" TextWrapping="Wrap" HorizontalAlignment="Left" Width="342" IsReadOnly="True"/>
+        <TextBox x:Name="tb2" Margin="363,48,0,0" TextWrapping="Wrap" IsReadOnly="True" Height="187" VerticalAlignment="Top" HorizontalAlignment="Left" Width="342"/>
         <Button x:Name="btn" Content="Рассчитать" Margin="781,0,0,220" Click="btn_Click" FontFamily="Bahnschrift" FontSize="18" Height="95" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="128"/>
         <TextBox x:Name="tbRows" HorizontalAlignment="Left" Height="44" Margin="255,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88" />
         <TextBox x:Name="tbColumns" HorizontalAlignment="Left" Height="44" Margin="255,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="88"/>
         <Label x:Name="lb1_Copy5" Content="Двумерный массив :" HorizontalAlignment="Left" Margin="363,13,0,628" Width="179" FontFamily="Bahnschrift" FontSize="16"/>
         <Label x:Name="lb1_Copy6" Content="Столбцы:" HorizontalAlignment="Left" Margin="150,167,0,476" Width="100" FontFamily="Bahnschrift" FontSize="16"/>
         <Label x:Name="lb1_Copy7" Content="Строки:" HorizontalAlignment="Left" Margin="150,53,0,593" Width="100" FontFamily="Bahnschrift" FontSize="16"/>
-        <TextBox x:Name="tb2Test" Margin="46,316,0,317" TextWrapping="Wrap" HorizontalAlignment="Left" Width="289" IsReadOnly="True" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="tb2Test" Margin="46,317,0,0" TextWrapping="Wrap" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Height="86" VerticalAlignment="Top" HorizontalAlignment="Left" Width="289">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

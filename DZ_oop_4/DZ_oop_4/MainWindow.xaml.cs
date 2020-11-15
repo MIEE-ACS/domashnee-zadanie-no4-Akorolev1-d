@@ -48,6 +48,13 @@ namespace DZ_4
                 MessageBox.Show("Введите размер массива!");
                 return;
             }
+
+            if (int.Parse(tbUser.Text) < 0)
+            {
+                MessageBox.Show("Размер массив отрицательный!");
+                return;
+            }
+
             Count = int.Parse(tbUser.Text);
             Random Random = new Random();
             double[] a = new double[Count];
