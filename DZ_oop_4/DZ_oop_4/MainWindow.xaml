@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DZ_4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="714" Width="929">
-    <Grid x:Name="WorkSpace" Margin="0,0,0,-6" MinWidth="939" MinHeight="699">
+        Title="MainWindow" Height="714" Width="929" MinWidth="1000" MinHeight="800">
+    <Grid x:Name="WorkSpace" Margin="0,0,0,-6">
         <TextBox x:Name="tb1" Margin="41,50,0,0" TextWrapping="Wrap" IsReadOnly="True" HorizontalAlignment="Left" Width="359" Height="178" VerticalAlignment="Top"/>
         <TextBox x:Name="tb1MIN" HorizontalAlignment="Left" Margin="745,99,0,0" TextWrapping="Wrap" Width="80" IsReadOnly="True" Height="34" VerticalAlignment="Top"/>
         <Label x:Name="lb1" Content="Номер минимального элеманта:" Margin="495,139,167,529" FontFamily="Bahnschrift" FontSize="16"/>
