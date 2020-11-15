@@ -1,0 +1,35 @@
+﻿<Window x:Class="DZ_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DZ_4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="714" Width="929" MinWidth="1000" MinHeight="800">
+    <Grid x:Name="WorkSpace" Margin="0,0,0,-6">
+        <TextBox x:Name="tb1" Margin="41,50,0,0" TextWrapping="Wrap" IsReadOnly="True" HorizontalAlignment="Left" Width="359" Height="178" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb1MIN" HorizontalAlignment="Left" Margin="745,99,0,0" TextWrapping="Wrap" Width="80" IsReadOnly="True" Height="34" VerticalAlignment="Top"/>
+        <Label x:Name="lb1" Content="Номер минимального элеманта:" Margin="495,139,167,529" FontFamily="Bahnschrift" FontSize="16"/>
+        <Label x:Name="lb1_Copy" Content="Одномерный массив :" HorizontalAlignment="Left" Margin="41,13,0,659" Width="179" FontFamily="Bahnschrift" FontSize="16"/>
+        <Label x:Name="lb1_Copy1" Content="Введите размер:" Margin="610,53,167,616" FontFamily="Bahnschrift" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.256"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="tbUser" Margin="745,50,0,0" TextWrapping="Wrap" RenderTransformOrigin="0.494,0.541" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="80"/>
+        <Button x:Name="btn" Content="Рассчитать" Margin="601,0,0,195" Click="btn_Click" FontFamily="Bahnschrift" FontSize="18" Height="95" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="128"/>
+        <Label x:Name="lb1_Copy2" Content="Значение минимального элемента:" Margin="468,99,167,571" FontFamily="Bahnschrift" FontSize="16"/>
+        <TextBox x:Name="tb1MINVALUE" HorizontalAlignment="Left" Margin="745,139,0,0" TextWrapping="Wrap" Width="80" IsReadOnly="True" RenderTransformOrigin="0.505,0.579" Height="36" VerticalAlignment="Top"/>
+        <Label x:Name="lb1_Copy3" Content="Сумма между отрицательными элементами:" HorizontalAlignment="Left" Margin="41,258,0,409" Width="335" FontFamily="Bahnschrift" FontSize="16"/>
+        <TextBox x:Name="tb1SUMMA" HorizontalAlignment="Left" Margin="41,300,0,0" TextWrapping="Wrap" Width="464" IsReadOnly="True" RenderTransformOrigin="0.507,0.608" Height="31" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb1Sort" Margin="41,394,0,132" TextWrapping="Wrap" IsReadOnly="True" HorizontalAlignment="Left" Width="359"/>
+        <Label x:Name="lb1_Copy4" Content="Одномерный массив после преобразований:" Margin="41,352,0,315" FontFamily="Bahnschrift" FontSize="16" HorizontalAlignment="Left" Width="340"/>
+        <Label Content="1" HorizontalAlignment="Left" Height="44" Margin="0,1,0,0" VerticalAlignment="Top" Width="41" FontFamily="Arial Black" FontSize="40"/>
+
+    </Grid>
+</Window>
